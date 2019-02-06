@@ -1,5 +1,5 @@
 // JO 3-Jan-2019
-package quizRetaker_local;
+
 //import javax.servlet.http.HttpServlet;
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;
@@ -82,18 +82,18 @@ public class quizschedule {
       System.out.println(courseID);
 
 
-      if (courseID != null && !courseID.isEmpty()) {  // If not, ask for one.
-         courseBean course;
-         courseReader cr = new courseReader();
-         courseFileName = dataLocation + courseBase + "-" + courseID + ".xml";
-         try {
-            course = cr.read(courseFileName);
-         } catch (Exception e) {
-            String message = "<p>Can't find the data files for course ID " + courseID + ". You can try again.";
-            System.out.println(message);
-            return;
-         }
-      }
+//      if (courseID != null && !courseID.isEmpty()) {  // If not, ask for one.
+//         courseBean course;
+//         courseReader cr = new courseReader();
+//         courseFileName = dataLocation + courseBase + "-" + courseID + ".xml";
+//         try {
+//            course = cr.read(courseFileName);
+//         } catch (Exception e) {
+//            String message = "<p>Can't find the data files for course ID " + courseID + ". You can try again.";
+//            System.out.println(message);
+//            return;
+//         }
+//      }
         System.out.println("test");
 
 
