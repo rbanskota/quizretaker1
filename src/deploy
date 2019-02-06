@@ -1,0 +1,17 @@
+echo Copying .class files to /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp quizschedule.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp servletUtils.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp quizBean.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp quizReader.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp quizzes.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp retakeBean.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp retakes.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp retakesReader.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp apptBean.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp apptsReader.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp courseReader.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+cp courseBean.class /usr/local/Cellar/tomcat/9.0.14/libexec/webapps/
+
+echo copying xml files to /webapps/rbanskot/WEB-INF/data
+cp quiz-orig-swe437.xml /webapps/rbanskot/WEB-INF/data
+cp quiz-retakes-swe437.xml /webapps/rbanskot/WEB-INF/data
